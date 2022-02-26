@@ -1,5 +1,6 @@
 # Blog-Website
 *** Deprecation ***
+---
 This project was created following the 'django 3 by example' book. You can check their Github at [here](https://github.com/PacktPublishing/Django-3-by-Example)
 
 Django Blog
