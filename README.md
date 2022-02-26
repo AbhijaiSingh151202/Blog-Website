@@ -9,8 +9,7 @@ Project Summary
 ---
 First of all the website shows the home page from where you are go to the blog page. When the user goes to the bolg page their the user can see all the blog. on each page their would be 3 blogs. The user can open any blog and can also comment on that blog. At the right side the user can see what are the latest posts and can also see the most commented posts. Under the most commented posts part the user can see a link that makes the user subcribe to the rss feed of this blog website.
 
-[![alt text]
-
+_________________
 Running this project
 To get this project up and running you should start by having Python installed on your computer. It's advised you create a virtual environment to store your projects dependencies separately. You can install virtualenv with
 
