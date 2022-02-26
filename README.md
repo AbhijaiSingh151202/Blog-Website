@@ -42,12 +42,4 @@ python manage.py runserver
 **Note: if you want to share a post make sure to change the email and it's password in the settings.py file and also
 remeber to turn on allow less-secure apps on the mail you would be using**
 **Note: Do Not Use A Important mail make a new one and make sure it does not contains any type of official data of yours**
-
-<div align="center">
-
-<i>Other places you can find us:</i><br>
-
-<a href="https://www.youtube.com/channel/UCRM1gWNTDx0SHIqUJygD-kQ" target="_blank"><img src="https://img.shields.io/badge/YouTube-%23E4405F.svg?&style=flat-square&logo=youtube&logoColor=white" alt="YouTube"></a>
-<a href="https://www.twitter.com/justdjangocode" target="_blank"><img src="https://img.shields.io/badge/Twitter-%231877F2.svg?&style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></a>
-
-</div>
+_______________
