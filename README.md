@@ -14,27 +14,31 @@ Running this project
 ---
 Their are some steps that you need to follow to get this project up and running.
 
-#### 1st Step
+### 1st Step
+You should have Python installed on your computer.
 
+### 2nd Step
+Clone or download this repository and open it in your editor of choice. In a terminal, run the following command in the base directory of this project.
+```
+env\Scripts\activate
+```
 
-
-
-
-
-
-To get this project up and running you should start by having Python installed on your computer. It's advised you create a virtual environment to store your projects dependencies separately. You can install virtualenv with
-
-pip install virtualenv
-Clone or download this repository and open it in your editor of choice. In a terminal (mac/linux) or windows terminal, run the following command in the base directory of this project
-
-virtualenv env
-That will create a new folder env in your project directory. Next activate it with this command on mac/linux:
-
-source env/bin/active
+### 3rd Step
 Then install the project dependencies with
-
+```
 pip install -r requirements.txt
-Now you can run the project with this command
+```
+in any case if you get an error try running
+```
+python -m pip install -r requirements.txt
+```
 
+### 4th Step
+Now you can run the project with this command
+```
 python manage.py runserver
-Note if you want payments to work you will need to enter your own Stripe API keys into the .env file in the settings files.
+```
+
+**Note: if you want to share a post make sure to change the email and it's password in the settings.py file and also
+remeber to turn on allow less-secure apps on the mail you would be using**
+**Note: Do Not Use A Important mail make a new one and make sure it does not contains any type of official data of yours**
