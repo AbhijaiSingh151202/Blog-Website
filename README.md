@@ -14,7 +14,7 @@ Running this project
 ---
 Their are some steps that you need to follow to get this project up and running.
 
-###1st Step
+### 1st Step
 
 
 
