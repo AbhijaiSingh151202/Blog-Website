@@ -1,9 +1,8 @@
-# Blog-Website
 *** Deprecation ***
----
 This project was created following the 'django 3 by example' book. You can check their Github at [here](https://github.com/PacktPublishing/Django-3-by-Example)
+_________________
 
-Django Blog
+# Blog-Website
 This is a very simple Blog website built with Django.
 
 Project Summary
