@@ -1,6 +1,6 @@
 # Blog-Website
-*** Deprecation warning ***
-This project was created almost two years ago. Since then, there is a newer version of the project which you can find here
+*** Deprecation ***
+This project was created following the 'django 3 by example' book. You can check their Github at [here](https://github.com/PacktPublishing/Django-3-by-Example)
 
 Django E-commerce
 This is a very simple e-commerce website built with Django.
