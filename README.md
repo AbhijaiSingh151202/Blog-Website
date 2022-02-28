@@ -40,5 +40,5 @@ python manage.py runserver
 ```
 
 **Note: if you want to share a post make sure to change the email and it's password in the settings.py file and also
-remeber to turn on allow less-secure apps on the mail you would be using**
-**Note: Do Not Use A Important mail make a new one and make sure it does not contains any type of official data of yours**
+remeber to turn on allow less-secure apps on the mail you would be using.**  
+**Note: Do Not Use A Important mail make a new one and make sure it does not contains any type of official data of yours.**
