@@ -1,0 +1,4 @@
+env/
+myapp/__pycache__/
+Blog/__pycache__/
+signup/__pycache__/
