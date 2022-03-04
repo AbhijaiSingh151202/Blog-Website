@@ -3,6 +3,7 @@ from Blog.models import Post
 from django.db.models import Count
 from django.utils.safestring import mark_safe
 import markdown
+import os
 
 
 register = template.Library()
@@ -11,7 +12,7 @@ register = template.Library()
 def total_posts():
     return Post.published.count()
 
-@register.inclusion_tag('blog\post\latest_post.html')
+@register.inclusion_tag(os.path.join('blog', 'post', 'latest_post.html'))
 def show_latest_posts(count=5):
     latest_posts = Post.published.order_by('-publish')[:count]
     return {'latest_posts': latest_posts}
